@@ -1,0 +1,307 @@
+/* Nav bar*/
+
+.nav-link {
+    color: black;
+
+}
+
+
+/* body */
+
+
+.container-01 {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url('images/bg01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    min-height: calc(100vh - 12vh);
+    display: flex;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+/* Footer */
+
+.footer {
+    background-color: #df9f6c;
+    /* Example background color */
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer-description {
+    flex: 1;
+    text-align: left;
+
+}
+
+.footer-contact-us {
+    flex: 1;
+    text-align: center;
+
+}
+
+.footer-follow-us {
+    flex: 1;
+    text-align: right;
+
+}
+
+
+
+
+/*login & Register*/
+
+
+#logbox01 {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    padding: 5px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#logbox01>h1 {
+    color: whitesmoke;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+/*login*/
+
+
+#login01 {
+    top: 140px;
+    position: absolute;
+    width: 280px;
+
+}
+
+#login01>.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+#login01>.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #e69a29, #e6e3de);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+#login01>.chech-box {
+    margin: 30px 20px 30px 0;
+}
+
+
+#text0023 {
+    font-size: 16px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/*register*/
+
+#register01 {
+    top: 90px;
+    position: absolute;
+    width: 280px;
+
+}
+
+#register01>.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+#register01>.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #e69a29, #e6e3de);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+#register01>.chech-box {
+    margin: 30px 10px 30px 0;
+}
+
+
+#text0010 {
+    font-size: 16px;
+    margin: auto;
+    margin-top: 17px;
+}
+
+
+
+#spn01 {
+    margin-top: 25px;
+    color: #777;
+    font-size: 15px;
+    bottom: 63px;
+
+}
+
+#spn02 {
+    margin-top: 25px;
+    font-size: 15px;
+    bottom: 63px;
+    margin-left: 30px;
+
+}
+
+#login01 {
+    left: 50px;
+}
+
+#register01 {
+    left: 50px;
+}
+
+#textcolor1 {
+    color: #fff;
+}
+
+
+/*Warden*/
+
+#logbox02 {
+    width: 780px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: linear-gradient(rgba(0, 0, 1, 0.8), rgba(0, 0, 1, 0.8));
+    padding: 5px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#logbox02>h1 {
+    color: whitesmoke;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+/* Landloard*/
+
+#logbox03 {
+    width: 1280px;
+    height: 580px;
+    position: relative;
+    margin: 6% auto;
+    background: linear-gradient(rgba(0, 0, 1, 0.8), rgba(0, 0, 1, 0.8));
+    padding: 5px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#logbox03>h1 {
+    color: whitesmoke;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+
+#landloard {
+    top: 10px;
+    position: absolute;
+    width: 280px;
+    margin-left: 30px;
+
+}
+
+#landloard>.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    /* Adjust alignment as needed */
+}
+
+.styled-button {
+    width: auto;
+    /* Adjust width as needed */
+    padding: 5px 20px;
+    cursor: pointer;
+    background: linear-gradient(to right, #e69a29, #e6e3de);
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+/* hostels */
+
+#logbox04 {
+    width: 1280px;
+    height: 580px;
+    position: relative;
+    margin: 6% auto;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+    padding: 5px;
+    border-radius: 30px;
+    overflow: hidden;
+}
